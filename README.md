@@ -62,6 +62,9 @@ Or create composer.json in root folder and set:
 Then...
 
     composer install
+    
+If you use sfDoctrineGuardPlugin
+
     composer require lexpress/sf-doctrine-guard-plugin
     
 Note: On windows, if your project is a few directories down from the drive root, composer can throw an error  relating to ZipArchive::extractTo(), this can be because pathnames are too long. There currently appears to be no proper solution but a workaround is to move your project to the drive root, run the commands from there, where they will run happily, and then move your project back. 
