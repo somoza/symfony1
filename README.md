@@ -60,6 +60,7 @@ Or create composer.json in root folder and set:
     }
 
 Then...
+
     composer install
     composer require lexpress/sf-doctrine-guard-plugin
     
